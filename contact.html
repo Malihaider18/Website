@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Contact Me</title>
+   
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link href="main2.css" rel="stylesheet" type="text/css">
+      <meta charset = "utf-8">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+   </head>
+   <body>
+        <header>
+         <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">MH</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> 
+                </button>
+  
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="mywork.html">My Work</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+              </ul>
+            </div>
+          </div>
+  
+        </nav> 
+         </header>
+         <h1 class="heading">    
+            CONTACT ME
+         </h1>
+         <div class="contact">
+         <p class="contact-center">Have any questions? Fill out the form below and I'll get back to you as soon as I can!</p>
+         </div>
+        <form method = "post" action = "email.php">
+
+         <input type = "hidden" name = "recipient" value = "haiderma@kean.edu">
+         <section class="contact-container">
+            <div>
+            <p><label>
+               <input class="rcorners1" name = "name" placeholder="Name" type = "text" size = "60">
+            </label></p>
+            <br class="space">
+         <p><label>
+               <input class="rcorners1" name = "subject" placeholder="Subject" type = "text" size = "60">
+            </label></p>
+            <br class="space">
+         <p><label>
+            <input class="rcorners1"  name = "email" placeholder="Enter your email address" type = "text"  size = "60">
+         </label></p>
+            </div>
+            <div>
+         <!-- <textarea> creates a multiline textbox -->
+            <div class="layout">
+            <p class="space2"><label>
+               <textarea class="rcorners2" name = "msg" placeholder="Message"
+                  rows = "10" cols = "62"></textarea>
+            </label></p> 
+            </div>
+            <p>
+               <input class="rcorners3" type = "submit" value = "Submit">
+            </p>
+            </div>
+            </section>
+            <br>
+      </form>
+      <footer>
+         <span>&copy;</span>
+         2023 Maliha Haider
+       </footer>
+   </body>
+     
+</html>

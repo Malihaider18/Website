@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>My Store</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="store.js" async></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <link href="main2.css" rel="stylesheet" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+   </head>
+   <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="#">MH</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span> 
+                    </button>
+      
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="mywork.html">My Work</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                  </ul>
+                </div>
+              </div>
+      
+            </nav> 
+        </header>
+        <h1 class="heading">    
+            MY STORE
+        </h1>
+        <h2>
+           <strong>Water Bottles</strong> 
+        </h2>
+        <br><br class="space"> 
+        <section class="container">
+            <div class="left-container">
+                <p class="items-center">Vacuum Insulated Water Bottle</p>
+                <section class="items-container">
+                <img class="items-pic" src="waterbottles1.jpg" alt="Vacuum Insulated Water Bottle" width="270" height="270">
+                </section>
+                <p class="price-center">$37.99</p>
+                <button class="price-btn" onclick='add("waterbottles1.jpg","Vacuum Insulated Water Bottle", 37.99)' type="button">ADD TO CART</button>
+                <br><br>
+
+                <p class="items-center">Stainless Steel Water Bottle</p>
+                <section class="items-container">
+                <img class="items-pic" src="waterbottles2.jpg" alt="Stainless Steel Water Bottle" width="270" height="270">
+                </section>
+                <p class="price-center">$32.99</p>
+                <button class="price-btn" onclick='add("waterbottles2.jpg","Stainless Steel Water Bottle", 32.99)' type="button">ADD TO CART</button>
+                <br><br>
+                <p class="items-center">Sports Water Bottle</p>
+                <section class="items-container">
+                <img class="items-pic" src="waterbottles3.jpg" alt="Sports Water Bottle" width="270" height="270">
+                </section>
+                <p class="price-center">$14.45</p>
+                <button class="price-btn" onclick='add("waterbottles3.jpg","Sports Water Bottle", 14.45)' type="button">ADD TO CART</button>
+            
+            </div>
+            <div class="right-container">
+                <p class="items-center">Hydro Flask</p>
+                <section class="items-container">
+                <img class="items-pic" src="waterbottles4.jpg" alt="Hydro Flask" width="270" height="270">
+                </section>
+                <p class="price-center">$34.49</p>
+                <button class="price-btn" onclick='add("waterbottles4.jpg","Hydro Flask", 34.49)' type="button">ADD TO CART</button>
+                <br><br>
+
+                <p class="items-center">Half Gallon Water Bottle</p>
+                <section class="items-container">
+                <img class="items-pic" src="waterbottles5.jpg" alt="Half Gallon Water Bottle" width="270" height="270">
+                </section>
+                <p class="price-center">$18.99</p>
+                <button class="price-btn" onclick='add("waterbottles5.jpg","Half Gallon Water Bottle", 18.99)' type="button">ADD TO CART</button>
+                <br><br>
+
+                <p class="items-center">Plastic Water Bottle</p>
+                <section class="items-container">
+
+                <img class="items-pic" src="waterbottles6.jpg" alt="Plastic Water Bottle" width="270" height="270">
+                </section>
+                <p class="price-center">$9.99</p>
+                <button class="price-btn" onclick='add("waterbottles6.jpg","Plastic Water Bottle", 9.99)' type="button">ADD TO CART</button>
+
+            </div>
+        </section>
+        <div class="cart">
+            <br>
+            <p class="cart-heading">Cart</p>
+    
+            <!--  Bootstrap table-->
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">ITEM</th>
+                            <th scope="col"></th>
+                            <th scope="col">PRICE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div><br>
+            <button class="price-btn" onclick='purchase()' type="button">PURCHASE</button>
+
+        </div>
+        <br>
+        <footer>
+            <span>&copy;</span>
+            2023 Maliha Haider
+        </footer>
+    </body>
+</html>

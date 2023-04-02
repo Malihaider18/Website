@@ -1,0 +1,378 @@
+body{
+    margin: 0;
+    background-color: #e4dcd4;
+}
+
+.navbar-brand{
+    list-style-type: none;
+    font-size: 50px;
+    pointer-events: none;
+
+
+}
+.navbar-default .navbar-brand {
+    color: #c9c2bb;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+
+}
+.navbar{
+    background-color: rgb(0, 122, 122);
+    
+}
+.navbar-default .navbar-nav>li>a {
+    color: #e4dcd4;
+}  
+nav ul li a{
+    font-size: 30px;
+
+}
+
+.container-fluid{
+    padding: 10px 20px;
+    margin: 10px;
+
+    
+}
+nav ul li {
+    padding-right: 10px;
+
+}
+
+html, body, section {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+.heading{
+    color: rgb(0, 150, 137);
+    font-size: 55px;
+
+}
+
+.sub-heading{
+    color: rgb(0, 88, 80);
+    font-size: 30px;
+
+}
+.btn{
+    font-size: 18px;
+    background: rgb(0, 88, 80);
+    color: white;
+    margin-top: 30px;
+    padding: 15px 22px 15px 22px;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    border-width: 0px;
+    margin-left: -1%;
+
+}
+.btn:hover {
+    color: gray;
+}  
+  
+.image{
+    margin-left: 20px;
+}
+.text{
+    margin-right: 20px;
+
+}
+img {
+    border-radius: 50%;
+    border: 5px solid black;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 5%;
+    padding: 10px;
+    background-color: rgb(0, 88, 80);
+    color: #c9c2bb;
+}
+
+h4{
+    padding-left:2%;
+}
+p{
+    padding-left:2%;
+
+}
+@media only screen and (max-width: 250px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+    
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        margin-top: 45px;
+        margin-bottom: 75px;
+
+    }
+
+    .image {
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .image img {
+        height: 200px;
+      }
+
+    .text {
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .heading{
+        font-size: 35px;
+    }
+    
+    .sub-heading{
+        font-size: 15px;    
+    }
+    .btn{
+        margin-bottom: 7%;
+        font-size: 14px;
+        padding: 11px 18px 11px 18px;
+        
+    }
+
+}
+
+@media only screen and (min-width: 250px) and (max-width: 330px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+    
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        margin-bottom: 120px;
+
+    }
+
+    .image {
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .image img {
+        height: 230px;
+      }
+
+    .text {
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .heading{
+        font-size: 40px;
+    }
+    
+    .sub-heading{
+        font-size: 17px;    
+    }
+    .btn{
+        margin-bottom: 7%;
+        font-size: 16px;
+        padding: 13px 20px 13px 20px;
+        
+    }
+
+}
+@media only screen and (min-width: 330px) and (max-width: 405px) {
+
+    .navbar-brand {
+        font-size: 35px;
+    }
+    
+    nav ul li a{
+        font-size: 25px;
+    }
+    .container {
+        flex-direction: column-reverse;
+        margin-top: 130px;
+        margin-bottom: 150px;
+
+    }
+
+    .image {
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .image img {
+        height: 260px;
+      }
+
+    .text {
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .heading{
+        font-size: 50px;
+    }
+    
+    .sub-heading{
+        font-size: 20px;    
+    }
+    .btn{
+        margin-bottom: 7%;  
+    }
+
+}
+
+
+@media only screen and (min-width: 405px) and (max-width: 463px) {
+    .navbar-brand {
+        font-size: 35px;
+    }
+    
+    nav ul li a{
+        font-size: 25px;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        margin-top: 150px;
+        margin-bottom: 190px;
+
+    }
+    .image {
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .image img {
+        height: 350px;
+      }
+
+    .text {
+        margin-right: 0px;
+        text-align: center;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    
+    .sub-heading{
+        font-size: 25px;    
+    }
+    .btn{
+        margin-bottom: 7%;  
+    }
+}
+
+
+@media only screen and (min-width: 463px) and (max-width: 693px) {
+    .navbar-brand {
+        font-size: 35px;
+    }
+    
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        margin-top: 220px;
+        margin-bottom: 220px;
+
+    }
+   
+    .image {
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .text {
+        margin-right: 0px;
+        text-align: center;
+    }
+    .btn{
+        margin-bottom: 7%;  
+    }
+}
+
+@media only screen and (min-width: 693px) and (max-width: 771px) {
+    .navbar-brand {
+        font-size: 35px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+    .container {
+        flex-direction: column-reverse;
+        margin-top: 190px;
+        margin-bottom: 190px;
+
+    }
+    .text {
+        margin-right: 0px;
+        text-align: center;
+    }
+    .image {
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .btn{
+        margin-bottom: 7%;  
+        margin-left: 0;
+
+    }
+    
+    
+}
+
+@media only screen and (min-width: 771px) and (max-width: 845px) {
+    .navbar-brand {
+        font-size: 35px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+    .container {
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+    }
+   
+    
+}
+
+@media only screen and (min-width: 845px) and (max-width: 992px) {
+    .navbar-brand {
+        font-size: 40px;
+    }
+
+    nav ul li a{
+        font-size: 25px;
+    }
+    .container {
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+    }
+   
+}
